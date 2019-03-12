@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+	background: url("../img/fundo2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+input{
+border-radius: 20px;
+text-align:center;
+border: solid black 2px;
+height: 40px;
+font-size:22px;
+}
+
+div#loginDiv{
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-left:-200px; /* Metade do valor da Largura */
+	margin-top:-150px; /* Metade da valor da Altura */
+	position:absolute;
+	height:300px;
+	width:400px;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#botao{
+	background-color:#3593E8;
+	border-radius: 10px;
+	height: 30px;
+	font-size:20px;
+}
+
+fieldset{
+	border:none;
+	margin: 0px auto;
+	padding:0px;
+	position: absolute;
+	height:150px;
+	width:400px;
+	top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:-200px;
+}
+
+p#mensagem{
+	color:red;
+	font-size:20px;
+}
