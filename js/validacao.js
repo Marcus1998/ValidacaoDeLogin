@@ -18,5 +18,7 @@ function validaFormulario(fm) {
 		document.getElementById("centraliza").style.marginTop="-150px";
 		
 		return false;
+	}else{
+		return true;
 	}
 }
